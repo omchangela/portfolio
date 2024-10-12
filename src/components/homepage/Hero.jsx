@@ -38,7 +38,7 @@ export default function Hero() {
   return (
     <section id="hero" className="hero relative flex w-full h-screen select-none items-center justify-center pt-16 lg:pt-24 2xl:pt-32" aria-label="hero">
 
-      <div className="z-10 flex flex-col  w-full items-center text-title 2xl:text-[10vw] 2xl:space-y-16 font-bold  uppercase text-accent-300">
+      <div className="z-10 flex flex-col  w-full items-center text-title 2xl:text-[10vw] 2xl:space-y-18 font-bold uppercase text-accent-300">
         <div className="title 2xl:py-16">
           {/* Learn more about useRef */}
           <h1 ref={(el) => (titles.current[0] = el)} className="translate-y-96 overflow-visible">
@@ -62,7 +62,7 @@ export default function Hero() {
       >
         <img
           ref={img}
-          className=" scale-110 aspect-[11/16] sm:aspect-[5/6] md:aspect-[7/7] rounded-md opacity-50 lg:aspect-[11/9] w-full h-auto"
+          className=" scale-110 aspect-[11/16] sm:aspect-[5/6] md:aspect-[7/7] rounded-md opacity-50 lg:aspect-[14/9] w-full h-auto"
           src={heroImg}
           alt="Abstract cubic background image."
         />
